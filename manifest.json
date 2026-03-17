@@ -5,7 +5,9 @@
   "description": "Show/Hide all password fields on a page",
   "permissions": [
     "activeTab",
-    "scripting"
+    "scripting",
+    "clipboardWrite",
+    "storage"
   ],
   "action": {
     "default_popup": "popup.html"
